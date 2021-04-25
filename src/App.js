@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import Footer from './Footer'
+import Header from './Header'
+import StartGame from './StartGame'
+import Result from './Result';
+
+import './style/App.css';
 
 function App() {
+  const [playerChoose, setPlayerChoose] = useState('');
+  const [botChoose, setBotChoose] = useState('');
+  const [win, setWin] = useState('');
+  const [counter, setCounter] = useState(0)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>  
+      <Header/>
+      <div className='game-container'>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path='/'> 
+              <StartGame setPlayerChoose={setPlayerChoose} playerChoose={playerChoose} setCounter={setCounter} setWin={setWin} setBotChoose={setBotChoose}/>
+            </Route>
+            <Route path='/result'>
+              <Result win={win} botChoose={botChoose} playerChoose={playerChoose}/>
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </div>
+      <Footer/>
+    </>
   );
 }
 
