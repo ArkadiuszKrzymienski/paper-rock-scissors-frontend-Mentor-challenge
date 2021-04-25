@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/paper-rock-scissors-frontend-Mentor-challenge/static/css/main.d99e82fe.chunk.css",
+    "main.js": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/main.3ab73bd7.chunk.js",
+    "main.js.map": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/main.3ab73bd7.chunk.js.map",
+    "runtime-main.js": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/runtime-main.5d4c175a.js",
+    "runtime-main.js.map": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/runtime-main.5d4c175a.js.map",
+    "static/js/2.90e75c07.chunk.js": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/2.90e75c07.chunk.js",
+    "static/js/2.90e75c07.chunk.js.map": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/2.90e75c07.chunk.js.map",
+    "index.html": "/paper-rock-scissors-frontend-Mentor-challenge/index.html",
+    "static/css/main.d99e82fe.chunk.css.map": "/paper-rock-scissors-frontend-Mentor-challenge/static/css/main.d99e82fe.chunk.css.map",
+    "static/js/2.90e75c07.chunk.js.LICENSE.txt": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/2.90e75c07.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/paper-rock-scissors-frontend-Mentor-challenge/static/media/icon-scissors.3b1a5d7e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d4c175a.js",
+    "static/js/2.90e75c07.chunk.js",
+    "static/css/main.d99e82fe.chunk.css",
+    "static/js/main.3ab73bd7.chunk.js"
+  ]
+}
