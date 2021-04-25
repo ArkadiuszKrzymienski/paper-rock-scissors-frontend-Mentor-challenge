@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/paper-rock-scissors-frontend-Mentor-challenge/static/css/main.d99e82fe.chunk.css",
-    "main.js": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/main.3ab73bd7.chunk.js",
-    "main.js.map": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/main.3ab73bd7.chunk.js.map",
+    "main.js": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/main.abe5b291.chunk.js",
+    "main.js.map": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/main.abe5b291.chunk.js.map",
     "runtime-main.js": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/runtime-main.5d4c175a.js",
     "runtime-main.js.map": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/runtime-main.5d4c175a.js.map",
     "static/js/2.90e75c07.chunk.js": "/paper-rock-scissors-frontend-Mentor-challenge/static/js/2.90e75c07.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.5d4c175a.js",
     "static/js/2.90e75c07.chunk.js",
     "static/css/main.d99e82fe.chunk.css",
-    "static/js/main.3ab73bd7.chunk.js"
+    "static/js/main.abe5b291.chunk.js"
   ]
 }
