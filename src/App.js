@@ -18,7 +18,7 @@ function App() {
     <>  
       <Header/>
       <div className='game-container'>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path='/'> 
               <StartGame setPlayerChoose={setPlayerChoose} playerChoose={playerChoose} setCounter={setCounter} setWin={setWin} setBotChoose={setBotChoose}/>
